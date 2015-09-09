@@ -1,0 +1,67 @@
+I have learned quite a bit about unix and the command line
+Navigation:
+~$  cd /
+This changes directories to the ROOT of your computer
+
+$ ls
+// list of files in the root directory...
+
+$ ls -t
+// changes the order of the lsiting so that the most recently modified iterms are first
+// t is for timeline
+
+$ ls -l
+// for a longer listing of what is in your root directory... detailed...
+
+$ ls -l -t
+or
+$ ls -lt
+// shows the long, time sorted results
+
+$ ls -r
+$ ls -rt
+// order is reversed, time reversed
+
+$ man less
+$ man ls
+  explanation of ls command
+
+ESCAPE
+tricking the command line into thinking that the space is just another character like any other... \
+
+NAMING:
+Always use dashes and lowdashes in your file names is esp. important in unix, so that it can be auto-completed.
+naming is CASE sensitive, different case makes it a different file.
+stick to lowercase with the dashes/underscores.
+
+RELATIVE PATHWAYS:
+always relative to where you are within the file system at the moment.
+
+You can list a directory from afar...
+ls ~
+  lists the contents of a directory
+
+
+-rt
+  reverses time
+
+.
+  means the current directory
+..
+  means one directory up
+../../
+  two directories up
+
+
+ROOT
+  top most folder - top of the filesystem which contains everything else.
+
+  GIT
+  I have learned quite a bit about GIT as well
+  git add <file> adds a specific file to the queue to be commited
+  git add . adds all files within the directory (and directories contained within it) to the queue to be committed.
+  git commit commits files in the queue to the repository (and without using -m it will bring up vim to enter a message)
+  git push (origin master) - pushes all commits to github repo branch
+  git pull (origin master) - pulls files from the origin branch to the local
+           (origin <branch>)
+  
